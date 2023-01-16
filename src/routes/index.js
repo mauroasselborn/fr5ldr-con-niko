@@ -4,4 +4,5 @@ export const Paths = {
     BEBIDAS: '/bebidas',
     SNACKS: '/snacks',
     COMIDAS: '/comidas',
+    ALGOMAS: '/algoMas',
 }
