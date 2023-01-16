@@ -3,3 +3,18 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.nav-active {
+    color: black;
+    transition: all 0.3s ease-out;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+.inactive {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+

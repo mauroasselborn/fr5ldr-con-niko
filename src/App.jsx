@@ -1,23 +1,9 @@
-import { Container, Nav, Navbar } from 'react-bootstrap'
-import { Navigation } from './routes/navigation'
+import { Link } from 'react-router-dom'
+import { Paths } from './routes'
+import NavigationLinks from './routes/NavigationLinks'
 
 function App() {
-    return (
-        <>
-            <Navigation />
-
-            {/* <Navbar bg="primary" variant="dark">
-                <Container>
-                    <Navbar.Brand href="#home">F5LDR</Navbar.Brand>
-                    <Nav className="me-auto">
-                        <Nav.Link href="#home">Bebidas</Nav.Link>
-                        <Nav.Link href="#features">Comidas</Nav.Link>
-                        <Nav.Link href="#pricing">Snacks</Nav.Link>
-                    </Nav>
-                </Container>
-            </Navbar> */}
-        </>
-    )
+    return <NavigationLinks />
 }
 
 export default App
